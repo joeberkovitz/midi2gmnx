@@ -1,0 +1,16 @@
+{
+  "name": "midi2gmnx",
+  "version": "1.0.0",
+  "description": "utility to create a skeletal GMNX file from a MIDI file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "dependencies": {
+    "xmlbuilder": ">=9.0",
+    "MidiConvert": "git://github.com/Tonejs/MidiConvert.git"
+  },
+  "license": "CC-BY-4.0"
+}
